@@ -235,8 +235,6 @@ app.post("/likeGithubUser", async (req, res) => {
     objectToUpdate["favoriteGithubUsers"] = listFavoriteUsers
   }
 
-  console.log(objectToUpdate)
-
   try {
     await update(dbUserRef, objectToUpdate)
 

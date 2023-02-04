@@ -8,14 +8,14 @@ SMS Service: Vonage</br>
 
 ### How to run
 #### Front-end
-Define the required variables in `.env` file</br>
+Define the required variables in `/front-end/.env` file</br>
 ```
 REACT_APP_API_URL=
 ```
 Install the required libraries: `cd front-end && npm install` </br>
 Run instance: `cd front-end && npm start` => Run on PORT `3000`
 #### Back-end
-Define the required variables in `.env` file</br>
+Define the required variables in `/back-end/.env` file</br>
 ```
 FIREBASE_CONFIG=
 VONAGE_API_KEY=

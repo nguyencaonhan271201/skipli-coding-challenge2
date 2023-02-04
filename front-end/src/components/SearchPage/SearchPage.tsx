@@ -113,7 +113,6 @@ export const SearchPage: React.FC = () => {
       }
     })
       .then(response => {
-        console.log(response);
       }, error => {
         alert(error.response?.data?.message)
       })
