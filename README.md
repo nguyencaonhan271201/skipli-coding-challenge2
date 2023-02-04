@@ -21,7 +21,6 @@ FIREBASE_CONFIG=
 VONAGE_API_KEY=
 VONAGE_API_SECRET=
 VONAGE_FROM_TEL=
-
 ```
 Install the required libraries: `cd back-end && npm install` </br>
 Run instance: `cd back-end && node index.js` => Run on PORT `3001`
@@ -33,8 +32,8 @@ Run instance: `cd back-end && node index.js` => Run on PORT `3001`
 ##### Pages
 Routing between the pages are handled by `react-router-dom` library</br>
 - `/`: Home page, for `Requesting Access code` and `Login`</br>
--`/search`: For searching the Github profiles by login name</br>
--`/profile`: Show the list of liked profiles
+- `/search`: For searching the Github profiles by login name</br>
+- `/profile`: Show the list of liked profiles
 
 #### Back-end
 ##### Endpoints
