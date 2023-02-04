@@ -1,0 +1,20 @@
+.profile-page {
+  &__results {
+    padding-top: 10px;
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+
+      td,
+      th {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+      }
+    }
+  }
+}
